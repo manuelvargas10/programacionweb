@@ -585,6 +585,7 @@ section p{
     height: 30px;
     border-radius: 10px;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .valoracion{
@@ -616,6 +617,7 @@ section p{
     height: 30px;
     border-radius: 5px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.767);
+    cursor: pointer;
 }
 
 /*boton de valoracion*/
