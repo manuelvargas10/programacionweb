@@ -1,0 +1,656 @@
+/* menu GYM*/ 
+
+body{
+    background-image: url(../imagenes_pa/fondo4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+    background-size: 1300px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-image: url(../imagenes_pa/hierro3.webp);
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo{
+    display: flex;
+    position: relative;
+    left: 20px;
+    z-index: 10;
+}
+
+.logo img{
+    display: flex;
+    height: 70px;
+}
+ 
+.logo h1{
+    display: flex;
+    position: relative;
+    color: white;
+}
+/* Tabla de navegacon*/
+.navv{
+    display: flex;
+    position: relative;
+    right: 310px;
+}
+.tabla{
+    background-color: #61677ac0;
+    display: flex;
+    position: relative;
+    left: 85px;
+    margin-top: 100px;
+    width: 1000px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.tabla h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+#imagen1 {
+    width: 120px;
+    height: 70px;
+    padding-left: 30px;
+}
+
+#imagen2 {
+    padding-left: 30px;
+    width: 90px;
+}
+
+#imagen3 {
+    padding-left: 20px;
+    width: 90px;
+    padding-left: 40px;
+    
+}
+
+#imagen4 {
+    padding-left: 20px;
+    width: 90px;
+    padding-left: 40px;
+
+}
+
+#imagen5 {
+    width: 110px;
+    height: 100px;
+    padding-left: 30px;
+}
+
+th{
+    width: 200px;
+}
+
+.tabla img {
+    display: flex;
+}
+
+.tabla a {
+    text-decoration: none;
+}
+
+.tabla th{
+    height: 1 0px;
+}
+
+h2{
+    color: black;
+    text-decoration: none;   
+}
+
+.rutinas {
+    text-transform: uppercase;
+}
+.contenedor{
+    text-align: justify;
+    color: white;
+}
+
+section h2{
+    color: white;
+}
+
+section p{
+    text-align: left;
+    width: 800px;
+}
+/*footer*/ 
+.footer{
+    background-color: rgba(92, 92, 93, 0.74);
+    bottom: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 200pxpx;
+    color: white;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerf{
+    width: 33,3333333%;
+}
+
+#icono{
+    width: 200px;
+    margin-left: 50px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes:hover {
+    transform: scale(1.3);
+    transition: all 300ms ease;
+}
+
+/*Noticias*/ 
+.contenedor{
+    background-color: rgba(13, 81, 227, 0.767);
+    color: white;
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.noticias{
+    width: 100%;
+}
+.notiparte{
+    border-radius: 10px;
+    display: flex;
+    width: 96%;
+    padding: 10px;
+    margin: 10px;
+    background-color:#d0ddd077;
+}
+
+.noti1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.noti1 h1{
+    text-align: end;
+}
+.texto{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    overflow: hidden;
+}
+/*suplementos*/ 
+
+.infopro h2{
+    color: white;
+}
+
+.infopro p{
+    color: white;
+    width: 300;
+}
+
+.infopro h1{
+    color: white;
+}
+
+
+.imagen{
+    margin-right: 10px;
+}
+
+.supletabla h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.tablasu img:hover {
+    transform: scale(1.3);
+    transition: all 300ms ease;
+}
+
+.tablasu {
+    background-color: #f8f0e565;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* boton suplementos*/
+.boton1{
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #29e925,
+        rgb(217, 255, 0),
+        #ff5100
+    );
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+
+.boton1 span{
+    background-color: black;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+    width: 200px;
+}
+
+.boton1:hover span{
+    background: none;
+}
+
+.boton1:active{
+    transform: scale(0.9);
+}
+
+/* ropadeportiva*/
+/* categorias*/
+
+.imporopa{
+    background-color: rgba(13, 81, 227, 0.767);
+    color: white;
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+
+.imporopa1{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    background-color:#d0ddd077;
+}
+
+.imporopa2{
+    color: white;
+    width: 40%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    background-color: #d0ddd079;
+
+    
+}
+
+.imporopa2 h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+/*boton ropa*/
+.boton2{
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #29e925,
+        rgb(217, 255, 0),
+        #ff5100
+    );
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 25%;
+    
+}
+
+.boton2 span{
+    background-color: black;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+    width: 200px;
+}
+
+.boton2:hover span{
+    background: none;
+}
+
+.boton2:active{
+    transform: scale(0.9);
+}
+.cuerporopa{
+    color: white;
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.cuerporopa h1{
+    text-align: center;
+    color: white;
+}
+
+.cuerporopa h2{
+    color: white;
+}
+
+.todocuerpo{
+    display: flex;
+    background-color: rgba(178, 178, 185, 0.676);
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(15, 19, 222, 0.5);
+}
+
+#categorias{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+}
+
+#categorias a{
+    display: block;
+    width: 90%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    background: #25b8e9;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    margin: 15px;
+    border-radius:20px;
+    transition: all 300ms ease-in-out;
+}
+
+#categorias a:hover{
+    background-color: #10607a;
+}
+
+/* produtos*/
+#productos{
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 5px;
+}
+
+.producto{
+    background: #25b8e9;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+}
+
+.producto:hover{
+    background-color: #10607a;
+}
+
+.producto img {
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+}
+
+.producto img:hover {
+    transform: scale(1.05);
+}
+
+.producto a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.producto img{
+    width: 220px;
+    height: 270px;
+}
+
+/*rutinas*/
+.rutinastodo{
+    width: 90%;
+    margin: auto;
+    background-color: rgba(178, 178, 185, 0.676);
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.rutinastodo p{
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+
+.rutinasdis{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 10px 10px;
+    gap: 10px;
+    justify-content: center;
+    color: white;
+}
+
+.trapecio{
+    background: #25b8e9;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.767);
+}
+
+.trapecio img {
+    width: 300px;
+    height: 270px;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.trapecio:hover{
+    background-color: #10607a;
+}
+.trapecio img:hover {
+    transform: scale(1.05);
+}
+
+.trapecio h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+/*alimentacion______*/
+
+.alimentostodo{
+    background-color: rgba(225, 225, 225, 0.553);
+    color: white;
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.alimentostodo a{
+    color: white;
+    text-align: center;
+}
+
+.alimentostodo img{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.alimentostodo .h1{
+    align-items: center;
+    margin: auto;
+}
+
+.alimento1{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(14, 235, 228, 0.589);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.767);
+    border-radius: 10px;
+}
+
+.alimento1:hover{
+    background-color: #10607a;
+}
+
+.alimento2{
+    color: white;
+    width: 45%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(14, 235, 228, 0.589);
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.767);
+    border-radius: 10px;
+}
+
+.alimento2:hover{
+    background-color: #10607a;
+}
+/*valoracion*/
+
+.valoracion-todo{
+    background-color: rgba(255, 255, 255, 0.541);
+    max-width: 1100px;
+    width: 90%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px 0px 30px 0px;
+}
+
+.valoracion-todo button{
+    background-color: rgb(111, 111, 227);
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.valoracion{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 40%;
+    background-color: wheat;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.767);
+}
+
+.valoracion .inputs{
+    width: 240px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.767);
+}
+
+.valoracion textarea{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.767);
+    margin-bottom: 20px;
+}
+
+.enviar{
+    background-color: #55c4e9;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.767);
+}
+
+/*boton de valoracion*/
+.valora{
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #e92525,
+        rgb(255, 153, 0),
+        #e1ff00
+    );
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 25%;
+    
+}
+
+.valora span{
+    background-color: black;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+    width: 200px;
+}
+
+.valora:hover span{
+    background: none;
+}
+
+.valora:active{
+    transform: scale(0.9);
+}
